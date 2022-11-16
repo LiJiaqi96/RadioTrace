@@ -93,7 +93,7 @@ plt.imshow(mask2d, alpha=0.5)
 plt.title("Stack mask")
 ```
 
-![p1](!!!)
+![p1](https://github.com/LiJiaqi96/radiotrace/blob/main/figures/p1.png)
 
 
 ### 3. Prepare data and load projection functions
@@ -134,13 +134,13 @@ We provide two visualization functions for users to visualize the reference traj
 ## Visualize the reference only
 fig = visualize_reference(reference_data_path="./data/ref_data.json", curve_data_path="./data/curve_data.npy")
 ```
-![p2](!!!)
+![p2](https://github.com/LiJiaqi96/radiotrace/blob/main/figures/p2.png)
 
 ```python
 ## Visualize the reference and inference tumors. Use "transparency" argument to adjust the color of training samples.
 fig = visualize(reference_data_path="./data/ref_data.json", curve_data_path="./data/curve_data.npy", transparency=0.2)
 ```
-![p3](!!!)
+![p3](https://github.com/LiJiaqi96/radiotrace/blob/main/figures/p3.png)
 
 
 ### 6. Calculate pseudo-progression score (PPS)
